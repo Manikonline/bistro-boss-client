@@ -1,10 +1,16 @@
 
+
+
+import "swiper/css";
+import "swiper/css/pagination";
+import FoodCard from "../../../../Componnts/FoodCard/FoodCard";
+import React, { useRef, useState } from "react";
+// Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination } from "swiper";
 import "swiper/css";
 import "swiper/css/pagination";
-import FoodCard from "../../../../Componnts/FoodCard/FoodCard";
-
+// TODO: Implement pagination here?
 const OrderTab = ({ items }) => {
     const pagination = {
         clickable: true,
